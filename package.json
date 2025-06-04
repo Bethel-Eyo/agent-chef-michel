@@ -1,0 +1,21 @@
+{
+  "name": "agent-chef-michel",
+  "version": "1.0.0",
+  "description": "A chef AI agent",
+  "type": "module",
+  "main": "index.js",
+  "author": "Bethel E",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx tsx src/index.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^1.3.22",
+    "@mastra/core": "^0.10.2",
+    "zod": "^3.25.51"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
